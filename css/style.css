@@ -61,6 +61,10 @@ a {
     display: block;
 }
 
+.w3-xlarge:hover {
+    color:white;
+}
+
 .w3-bar .w3-bar-item {
     display: none;
 }
