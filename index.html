@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title> :: savvygraphix:: </title>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<!--font-->
+<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet"> 
+<!--w3 School-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!--Normalize-->
+<link rel="stylesheet" href="css/normalize.min.css">
+<!--Custom style sheet-->
+<link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body> 
+    
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+  <a href="#work" class="w3-bar-item w3-button">Work</a>
+  <a href="#about" class="w3-bar-item w3-button">About</a>
+  <a href="#contact" class="w3-bar-item w3-button">Conctact</a>
+</div>
+    
+    
+ 
+<!-- Navbar  -->
+<div class="w3-top">
+    
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card-2">
+    <div class="w3-hide-small w3-display-middle w3-margin-top w3-center">
+      <a href="#work" class="w3-bar-item ">Work</a>
+      <a href="#about" class="w3-bar-item ">About</a>
+      <a href="#contact" class="w3-bar-item ">Contact</a>
+    </div>
+    <button class="w3-button w3-xlarge" onclick="w3_open()">☰</button>
+  </div>
+</div>
+
+<!-- header -->
+<header class="w3-display-container w3-content w3-wide top-image" style="max-width:100%;" id="home">
+    <div class="w3-display-middle w3-margin-top w3-center">
+        <img src="imgs/SG-Logo-01.png">
+          <p class="white"> savvygraphix </p>
+    </div>
+    <div class="w3-display-middle w3-center arrow-down">
+       <a href="#about"> <img src="imgs/Arrow_down_white-01.png"> </a>
+    </div>
+</header>
+    
+<!--About Section-->
+    
+<div class="blue w3-display-container triangle-topleft" id="about">
+    <div class="w3-display-topleft"><h2>About</h2></div>
+</div>
+    
+<div class="w3-row">
+  <div class="w3-container w3-third">
+    
+  </div>
+  <div class="w3-container w3-twothird">
+    <p class="padding">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  </div>
+</div>
+    
+<!--Work Section-->
+
+<div class="wood-bg" style="max-width=100%;" id="work">
+    <img src="imgs/wood-blue_bkground.png">
+    <div class="w3-display-container">
+    <div class="w3-display-topright"><h2>Work</h2></div>
+</div>
+</div>
+    
+<!-- icons -->
+    
+<div class="w3-row work-text">
+      <div class="w3-third w3-container">
+          <div class="w3-circle blue-bg">
+           <a href="#"><img src="imgs/Code-01.png"></a>
+      </div> 
+          <h3>HTML, CSS & JS</h3>
+        <p>Responsive web design</p>
+      </div>
+      <div class="w3-third w3-container">
+           <div class="w3-circle blue-bg">
+            <a href="#"> <img src="imgs/GD_pen_white-01.png"></a>
+      </div> 
+         <h3>Graphic design</h3>
+          <p>Logo & branding</p>
+      </div>
+      <div class="w3-third w3-container">
+            <div class="w3-circle blue-bg">
+            <a href="#"><img src="imgs/Prepress%20Icon%20white-01.png"></a>
+      </div>
+          <h3>Print Design</h3>
+         <p>Brochure, flyer, banners, etc.</p>
+      </div>
+</div> 
+
+<div class="blue w3-display-container triangle-topleft" id="contact">
+    <div class="w3-display-topleft"><h2>Contact</h2></div>
+</div>
+    
+ 
+    
+ <div class="w3-row" id="contact">
+  <div class="w3-third w3-container">
+    &nbsp;
+  </div>
+  <div class="w3-third w3-container email">
+    <a href="mailto:savontham@gmail.com"><img src="imgs/email-icon-01.png" alt="email"></a>
+      
+  </div>
+  <div class="w3-third w3-container">
+     &nbsp;
+  </div>
+</div> 
+    
+<footer>
+    <p> Savvygraphix &nbsp;  | &nbsp; Copyright &copy;<script language="JavaScript" type="text/javascript">document.write((new Date()).getFullYear());</script> </p>
+    </footer>
+
+
+<script>
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</body>
+</html>
