@@ -15,6 +15,7 @@
 <!--Custom style sheet-->
 <link rel="stylesheet" href="css/style.css">
 
+
   
 </head>
 
@@ -23,9 +24,9 @@
 <!-- Sidebar -->
 <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
   <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
-  <a href="#work" class="w3-bar-item w3-button">Work</a>
-  <a href="#about" class="w3-bar-item w3-button">About</a>
-  <a href="#contact" class="w3-bar-item w3-button">Conctact</a>
+  <a href="#work" class="w3-bar-item w3-button" onclick="w3_close()">Work</a>
+  <a href="#about" class="w3-bar-item w3-button" onclick="w3_close()">About</a>
+  <a href="#contact" class="w3-bar-item w3-button" onclick="w3_close()">Conctact</a>
 </div>
     
     
@@ -35,9 +36,9 @@
     
   <div class="w3-bar w3-white w3-wide w3-padding w3-card-2">
     <div class="w3-hide-small w3-display-middle w3-margin-top w3-center">
-      <a href="#work" class="w3-bar-item ">Work</a>
-      <a href="#about" class="w3-bar-item ">About</a>
-      <a href="#contact" class="w3-bar-item ">Contact</a>
+      <a href="#work" class="w3-bar-item">Work</a>
+      <a href="#about" class="w3-bar-item">About</a>
+      <a href="#contact" class="w3-bar-item">Contact</a>
     </div>
     <button class="w3-button w3-xlarge" onclick="w3_open()">☰</button>
   </div>
@@ -127,7 +128,7 @@
     <p> Savvygraphix &nbsp;  | &nbsp; Copyright &copy;<script language="JavaScript" type="text/javascript">document.write((new Date()).getFullYear());</script> </p>
     </footer>
 
-
+<!-- Sidebar menu js -->
 <script>
 function w3_open() {
     document.getElementById("mySidebar").style.display = "block";
@@ -136,5 +137,15 @@ function w3_close() {
     document.getElementById("mySidebar").style.display = "none";
 }
 </script>
+    
+    
+<!-- Google js -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+
+
+    
+    
+
 </body>
 </html>

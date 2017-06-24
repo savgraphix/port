@@ -1,6 +1,7 @@
 /* Universal style */
-body {
+body, html, header {
  font-family: 'Lato', sans-serif;
+    height: 100%;
 }
 
 a, p { 
@@ -80,7 +81,7 @@ a {
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-    height: 700px;
+    min-height: 100%;
     top: 0;
     position: relative;
     margin-top: -15px;
