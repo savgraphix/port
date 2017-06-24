@@ -133,14 +133,14 @@ li {
 
 .wood-bg img {
     width: 100%;
-    height: auto;
+    height: 180px;
 }
 
 .wood-bg h2 {
-    font-size: 65px;
+    font-size: 3.5rem;
     font-weight: 700;
     position: absolute;
-    bottom: 23px;
+    bottom: 95px;
     right: 40px;
     color: white;
     text-transform: uppercase;
