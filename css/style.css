@@ -71,6 +71,20 @@ a {
 }
 
 
+.img-row-padding {
+    padding: 1.5rem;
+    margin: 1.5rem;
+
+}
+.img-padding {
+    padding: .5rem;
+    margin: .5rem;
+
+}
+
+.margin-btm {
+     margin-bottom: 3rem;
+}
 
 
 /*Header section*/
@@ -122,6 +136,17 @@ li {
     text-transform: uppercase;
 }
 
+.w3-display-topleft-2 h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    position: absolute;
+    bottom: 48px;
+    left: 40px;
+    color: white;
+    text-transform: uppercase;
+
+}
+
 .triangle-topleft {
     width: 0;
     height: 20px;
@@ -164,6 +189,8 @@ li {
 .blue-bg a {
     margin: auto;
 }
+
+
 
 .work-text p {
     text-align: center;
@@ -245,6 +272,36 @@ li {
 
 }
     
+}
+
+
+/*Logo and Branding*/
+
+.blue-bg-modal {
+    background: #265285;
+    color: white;
+}
+
+.modal-img img{
+    width: 100%
+}
+
+.blue-bg-modal h2,
+.blue-bg-modal small {
+    color:white;
+} 
+
+
+.logo-title p {
+    color: #265285;
+}
+
+.logo-title {
+    margin-bottom: 1.5rem;
+}
+
+w3-button {
+    color: white;
 }
 
 /*contact*/
