@@ -71,6 +71,7 @@ a {
 }
 
 
+
 .img-row-padding {
     padding: 1.5rem;
     margin: 1.5rem;
@@ -121,26 +122,22 @@ li {
 /*--About section--*/
 
 .blue {
-    background: white;
-    height: 10px;
-    width: 100%;
+    background: #265285;
 }
 
 .w3-display-topleft h2 {
     font-size: 3.5rem;
-    font-weight: 700;
+    font-weight: 100;
     position: absolute;
-    bottom: 110px;
     left: 40px;
     color: white;
     text-transform: uppercase;
 }
 
 .w3-display-topleft-2 h2 {
-    font-size: 2.5rem;
-    font-weight: 700;
+    font-size: 3.5rem;
+    font-weight: 100;
     position: absolute;
-    bottom: 48px;
     left: 40px;
     color: white;
     text-transform: uppercase;
@@ -148,26 +145,18 @@ li {
 }
 
 .triangle-topleft {
-    width: 0;
-    height: 20px;
-    border-top: 250px solid #265285;
-    border-right: 2500px solid transparent;
-    flex-direction: row;
+    width: 100%;
+    height: 120px;
+ 
 }
 
 /*Work section*/
 
-.wood-bg img {
-    width: 100%;
-    height: 180px;
-}
-
-.wood-bg h2 {
+#work h2 {
     font-size: 3.5rem;
-    font-weight: 700;
+    font-weight: 100;
     position: absolute;
-    bottom: 95px;
-    right: 40px;
+    left: 40px;
     color: white;
     text-transform: uppercase;
 }
@@ -190,6 +179,10 @@ li {
     margin: auto;
 }
 
+
+.port-examples {
+    margin: 4rem;
+}
 
 
 .work-text p {
