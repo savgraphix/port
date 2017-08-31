@@ -352,6 +352,12 @@ figure.effect-julia:hover p {
     margin-top: 7px;
 }
 
+.navbar-toggler {
+    background-color: #03243F;
+}
+
+
+
 .featurette {
     margin: 45px;
 }
