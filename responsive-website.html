@@ -170,9 +170,9 @@
                     $(this).toggleClass("open");
                 });
                     //scroll to top
-                $(".scroll-top").click(function(){     
-                $("html, body").animate({ scrollTop: 0 }, "slow");
-                return false;
+               $(".scroll-top").click(function(){     
+                    $('html').animate({scrollTop:0}, 'slow');//IE, FF
+                    $('body').animate({scrollTop:0}, 'slow');//chrome, don't know if Safari works
             });
             });
         </script>
