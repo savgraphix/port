@@ -171,7 +171,8 @@
                 });
                     //scroll to top
                 $(".scroll-top").click(function(){     
-                $("html").animate({scrollTop:0}, "slow");
+                $("html, body").animate({ scrollTop: 0 }, "slow");
+                return false;
             });
             });
         </script>
