@@ -363,6 +363,10 @@ figure.effect-julia:hover p {
     margin: 45px;
 }
 
+.featurette img{
+    width: 100%;
+}
+
 
 .list-unstyled a:hover {
     text-decoration: none;
