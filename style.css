@@ -401,7 +401,7 @@ button a{
 }
 
 /*Media quiries*/
-@media (min-width: 361px){
+@media (min-width: 376px){
     
 .col-md-6{
         margin-top: 25px;
