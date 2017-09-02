@@ -402,7 +402,14 @@ button a{
 
 /*Media quiries*/
 @media (min-width: 300px){
-    .col-md-6{
+    
+.col-md-6{
         margin-top: 25px;
     }
+    
+.grid figure {
+	margin: 0 0 12px 0;
+
+}
+    
 }
