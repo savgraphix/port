@@ -58,8 +58,7 @@ h4 {
   -o-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   cursor: pointer;
-   /*background-color: #03243F;*/
-    background: rgba(3, 36, 63, 0.1); 
+    background-color: rgba(3, 36, 63, 0.1); 
 }
 
 #nav-icon1 span, #nav-icon3 span, #nav-icon4 span {
