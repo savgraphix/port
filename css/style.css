@@ -363,6 +363,10 @@ figure.effect-julia:hover p {
     margin: 45px;
 }
 
+.featurette button{
+    margin-bottom: 15px;
+}
+
 .featurette img{
     width: 100%;
 }
