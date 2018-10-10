@@ -400,6 +400,35 @@ button a{
     color:#BFB9B6;
 }
 
+/*about box overlay*/
+
+.about-box{
+	background: white;
+	position: relative;
+	padding: 10px 50px;
+	text-align: center;
+	margin: -8% 5% 8% 8%;
+	line-height: 30px;
+	-webkit-box-shadow: 0 -25px 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+.btn-overlay {
+	font-size: 1em;
+	font-weight: normal;
+	color: #fff;
+	text-transform: none;
+	width: 200px;
+	height: 40px;
+	padding: 0px 24px 0;
+	margin-top: 16px;
+	box-sizing: border-box;
+	box-shadow: none;
+	-webkit-appearance: none;
+	border-radius: 100px;
+	border: 0;
+	font-family: Helvetica, Arial, 'sans-serif'
+}
+
 /*Media quiries*/
 @media (min-width: 361px){
     
