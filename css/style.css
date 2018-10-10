@@ -415,6 +415,7 @@ button a{
 .btn-overlay {
 	font-size: 1em;
 	font-weight: normal;
+	background: #03243F;
 	color: #fff;
 	text-transform: none;
 	width: 200px;
@@ -427,6 +428,12 @@ button a{
 	border-radius: 100px;
 	border: 0;
 	font-family: Helvetica, Arial, 'sans-serif'
+}
+
+.btn-overlay:hover {
+
+	background: #4788be;
+	
 }
 
 /*Media quiries*/
